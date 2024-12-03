@@ -1,6 +1,15 @@
 {
   "name": "@hakui/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohprettyhak/configs.git",
+    "directory": "packages/config-eslint"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "exports": {
     "./base": "./base.js",
@@ -8,12 +17,11 @@
     "./react-internal": "./react-internal.js",
     "./vite": "./vite.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "^9.16.0",
     "@next/eslint-plugin-next": "^15.0.3",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
-    "eslint": "^9.16.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
@@ -21,10 +29,10 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "globals": "^15.13.0",
-    "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0"
   },
-  "publishConfig": {
-    "access": "public"
+  "peerDependencies": {
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2"
   }
 }
