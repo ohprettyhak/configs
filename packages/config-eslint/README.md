@@ -18,6 +18,8 @@ yarn add @hakui/eslint-config --dev
 
 ## Usage
 
+You can use the configurations in your ESLint setup by importing them in your `.eslint.config.mjs` or equivalent configuration file.
+
 ### Next.js
 
 ```js
